@@ -1,0 +1,45 @@
+.view-books-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.view-books-container h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.book-list {
+    background: white; /* White background for the book list */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px; /* Increased max width for better visibility */
+    border-collapse: collapse; /* Ensure borders are collapsed */
+}
+
+.book-list th, .book-list td {
+    padding: 10px;
+    border: 1px solid #ddd; /* Add border to table cells */
+    text-align: left; /* Align text to the left */
+}
+
+.book-list th {
+    background-color: #007bff; /* Header background color */
+    color: white; /* Header text color */
+}
+
+.book-list tr:nth-child(even) {
+    background-color: #f2f2f2; /* Zebra striping for even rows */
+}
+
+.book-list tr:hover {
+    background-color: #ddd; /* Highlight row on hover */
+}

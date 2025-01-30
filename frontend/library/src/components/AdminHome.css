@@ -1,0 +1,13 @@
+.admin-dashboard {
+    text-align: center;
+}
+
+.book-list {
+    width: 80%;
+    margin: 0 auto; 
+    text-align: left; 
+}
+
+.actions {
+    margin-top: 20px;
+}

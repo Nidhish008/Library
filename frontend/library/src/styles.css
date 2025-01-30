@@ -1,0 +1,7 @@
+/* Global Styles */
+body {
+    background-color: black; /* Set the background color of the entire page to black */
+    color: white; /* Set default text color to white for contrast */
+    margin: 0;
+    font-family: Arial, sans-serif; /* Set a default font */
+}

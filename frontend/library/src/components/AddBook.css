@@ -1,0 +1,78 @@
+
+.add-book-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    background-color: black; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.add-book-container h2 {
+    text-align: center;
+    color: #ffffff; 
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+}
+
+input::placeholder,
+select {
+    color: #aaa;
+}
+
+input:focus,
+select:focus {
+    border-color: #00796b; /* Darker green on focus */
+}
+
+button {
+    align-self: center;
+    padding: 8px 15px; /* Reduced size */
+    background: linear-gradient(135deg, #4caf50, #388e3c); /* Gradient button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Added transition */
+}
+
+button:hover {
+    background-color: #dc620b;
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+/* Card Layout for Actions */
+.action-card {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.action-card button {
+    padding: 10px 20px; /* Adjusted padding for action buttons */
+    background-color: #2196F3; /* Blue background for action buttons */
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.action-card button:hover {
+    background-color: #1976D2; /* Darker blue on hover */
+}

@@ -1,0 +1,92 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #444;
+    line-height: 1.6;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3f51b5;
+    color: white;
+    padding: 15px 30px;
+    transition: background-color 0.3s;
+}
+
+.navbar:hover {
+    background-color: #303f9f;
+}
+
+.navbar-title {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.navbar-user {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Banner Section */
+.banner {
+    background: url("../assets/image.png") no-repeat center center;
+    background-size: cover;
+    color: white;
+    padding: 120px 0;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.banner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.banner h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #ffffff; /* Darker color for better visibility */
+}
+
+.banner p {
+    font-size: 20px;
+    margin: 10px 0 0;
+    color: #ffffff; /* Darker color for better visibility */
+}
+
+/* Content Section */
+.content {
+    flex-grow: 1;
+    padding: 30px;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.no-books {
+    font-size: 18px;
+    color: #666;
+}
